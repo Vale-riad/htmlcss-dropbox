@@ -5,7 +5,7 @@ Reset
     box-sizing: border-box;
     margin:0;
     padding: 0;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 header{
@@ -73,21 +73,41 @@ buttons
 .container-big{
     max-width: 1180px;
     margin: auto;
-    display: flex;
+
 
 }
-
+.row{
+    display: flex;
+}
 h1{
     text-align: left;
-    font-size: 50px;
-    padding-top: 50px;
+    font-size: 54px;
+    padding: 80px 0 50px 0;
+  
 }
+.paragrafo-primo{
 
+    margin-bottom: 20px;
+
+}
+.btn{
+    margin-bottom: 60px;
+    padding:10px;
+
+    
+}
+.paragrafo-secondo{
+    margin-bottom: 40px;
+}
 .col-small{
-    max-width: 40%;
+    width: 30%;
+}
+i{
+    font-size: 50px;
+    margin-bottom:10px;
 }
 .col-big{
-    max-width: 60%;
+    width:70%;
 }
 img{
     max-width: 100%;
