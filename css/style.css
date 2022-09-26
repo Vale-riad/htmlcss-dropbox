@@ -10,7 +10,14 @@ Reset
 
 header{
     height: 80px;
+    height: 50px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 100;
 }
+
 header > div{
     justify-content: space-between;
 }
@@ -40,12 +47,6 @@ common
 .flex{
     display: flex;
 }
-.container-big{
-    max-width: 1180px;
-}
-.container-small{
-    max-width: 1000px;
-}
 
 /*---------
 common
@@ -61,4 +62,33 @@ buttons
     padding:5px;
     margin-left: 5px;
 
+}
+
+
+.hero{
+    background-color: #b4d0e7;
+    margin-top: 50px;
+}
+
+.container-big{
+    max-width: 1180px;
+    margin: auto;
+    display: flex;
+
+}
+
+h1{
+    text-align: left;
+    font-size: 50px;
+    padding-top: 50px;
+}
+
+.col-small{
+    max-width: 40%;
+}
+.col-big{
+    max-width: 60%;
+}
+img{
+    max-width: 100%;
 }
