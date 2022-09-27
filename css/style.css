@@ -183,11 +183,39 @@ hr{
     border: solid 1px black;
 }
 
-.column-2 {
-    display: flex;
-  
-}
-.justify-between{
-    justify-content: space-between;
+.column-body{
+    margin: 5px 5px;
+
+    
 }
 
+h3{
+    padding-bottom: 5px;
+}
+h4{
+    padding-bottom: 15px;
+}
+.column-2 {
+    display: flex;
+ justify-content: flex-end;
+ 
+    
+}
+.hero2{
+
+    padding: 20px;
+    
+}
+
+.container-small{
+    display: flex;
+    flex-wrap: nowrap;
+}
+.col-grande{
+    width: 60%;
+}
+
+.col-piccola{
+    
+    width:40px;
+}
