@@ -233,8 +233,16 @@ h4{
     
 }
 
+.container-colonne{
+    width:100%;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
 .column-unica{
     width:30%;
+    margin:10px 10px;
     
     
 }
