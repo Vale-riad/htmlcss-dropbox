@@ -173,3 +173,21 @@ hr{
 .check{
     color:blue;
 }
+
+
+
+.column-bassa{
+    margin-bottom: 30px;
+    margin-top: 30px;
+    width:100%;
+    border: solid 1px black;
+}
+
+.column-2 {
+    display: flex;
+  
+}
+.justify-between{
+    justify-content: space-between;
+}
+
