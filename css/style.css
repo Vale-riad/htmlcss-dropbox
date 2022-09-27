@@ -210,7 +210,7 @@ h4{
 }
 .hero2{
 
-    padding: 20px;
+    padding: 80px;
     
 }
 
@@ -229,4 +229,12 @@ h4{
 
 .btn-white{
     margin:20px;
+    
+    
+}
+
+.column-unica{
+    width:30%;
+    
+    
 }
