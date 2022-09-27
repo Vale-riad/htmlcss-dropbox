@@ -5,17 +5,20 @@ Reset
     box-sizing: border-box;
     margin:0;
     padding: 0;
+}
+
+body {
     font-family: 'Open Sans', sans-serif;
 }
 
 header{
-    height: 80px;
-    height: 50px;
+    width:100%;
     position: fixed;
     top: 0;
     right: 0;
     left: 0;
     z-index: 100;
+    background-color: white;
 }
 
 header > div{
@@ -27,30 +30,41 @@ header > div{
 }
 header li{
     padding: 0 15px;
+    
 }
 header ul{
     align-items: center;
 }
 
-a{
-    text-decoration: none;
-}
-ul{
-    list-style: none;
-}
 header a{
     color: black;
-}
-/*---------
-common
----------*/
-.flex{
-    display: flex;
 }
 
 /*---------
 common
 ---------*/
+.flex {
+    display: flex;
+}
+.justify-between {
+    justify-content: space-between;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.container-big{
+    max-width: 1180px;
+    margin: auto;
+}
+.container-small{
+    max-width: 1000px;
+    margin:auto;
+}
+
+
 /*---------
 buttons
 ---------*/
@@ -63,52 +77,99 @@ buttons
     margin-left: 5px;
 
 }
+.btn{
+    margin-bottom: 25px;
+    padding:10px; 
+}
 
-
+/*---------
+hero
+---------*/
 .hero{
     background-color: #b4d0e7;
     margin-top: 50px;
 }
 
-.container-big{
-    max-width: 1180px;
-    margin: auto;
-
-
-}
-.row{
-    display: flex;
-}
 h1{
     text-align: left;
     font-size: 54px;
-    padding: 80px 0 50px 0;
-  
+    padding: 80px 0 0 0;
 }
-.paragrafo-primo{
-
+.hero p {
     margin-bottom: 20px;
+}
 
+.hero-content{
+    position: relative;
+    bottom:-80px;    
 }
-.btn{
-    margin-bottom: 60px;
-    padding:10px;
 
-    
-}
-.paragrafo-secondo{
-    margin-bottom: 40px;
-}
 .col-small{
+    position: relative;
     width: 30%;
 }
-i{
+i.hero-arrow{
+    position: absolute;
     font-size: 50px;
-    margin-bottom:10px;
+    left: 0;
+    bottom:100px;
 }
 .col-big{
     width:70%;
+    
 }
+    
 img{
     max-width: 100%;
+}
+
+.plans {
+    margin-top: 150px;
+}
+.plans-radio {
+    margin-bottom: 40px;
+}
+.radio{
+    display:flex;
+    margin-top: 10px;
+    
+}
+
+.second-radio{
+    margin-left: 10px;
+}
+
+.column {
+    width: 30%;
+    border: solid 1px black;
+}
+.column-header {
+    padding: 20px;
+    border-bottom: solid 1px black;
+    text-align:center;
+}
+.column-body {
+    padding: 20px;
+}
+.plan-list {
+    margin: 30px 0;
+}
+.plan-list li {
+    margin-bottom: 10px;
+}
+.plan-list li i {
+    padding-top: 4px;
+    padding-right: 10px;
+}
+.column .btn-blue{
+    margin-bottom: 20px;
+}
+
+hr{
+    width: 50px;
+    margin: 40px 0;
+}
+
+.check{
+    color:blue;
 }
