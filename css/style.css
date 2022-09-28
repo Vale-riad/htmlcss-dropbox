@@ -63,6 +63,9 @@ ul {
     max-width: 1000px;
     margin:auto;
 }
+.conta-grande{
+    width:100vw;
+}
 
 
 /*---------
@@ -177,7 +180,7 @@ hr{
     margin: 40px 0;
 }
 
-.check{
+.flex .check{
     color:blue;
 }
 
@@ -190,30 +193,27 @@ hr{
     border: solid 1px black;
 }
 
-.column-body{
+.column-3{
     margin: 5px 5px;
-
+    display: flex;
     
+}
+.bottone{
+    justify-content: space-between;
 }
 
 h3{
-    padding-bottom: 5px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+
 }
 h4{
-    padding-bottom: 15px;
+    padding-bottom: 40px;
 }
-.column-2 {
-    display: flex;
- justify-content: flex-end;
- 
-    
-}
+
 .hero2{
-
-    padding: 80px;
-    
+    padding: 100px;
 }
-
 
 .col-grande{
     width: 60%;
@@ -230,19 +230,64 @@ h4{
 .btn-white{
     margin:20px;
     
-    
 }
-
 .container-colonne{
     width:100%;
     display: flex;
     flex-wrap: wrap;
-
 }
-
 .column-unica{
     width:30%;
     margin:10px 10px;
-    
-    
+}
+
+.titoletto{
+    margin: 100px;
+}
+.stacco{
+    padding-bottom: 70px;
+}
+.link{
+    text-decoration-line: underline;
+    color: blue;
+}
+.column-3{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+    padding-left: 30px;
+}
+.bottone{
+    margin-top: 20px;
+}
+.hero-3{
+    background-color: aquamarine;
+}
+
+.partners {
+    display: flex;
+}
+.partner-col {
+    position: relative;
+    width: calc(100% / 3);
+    border: 1px solid;
+}
+.partner-col::before {
+    content: '';
+    padding-top: 100%;
+    display: block;
+}
+.partner-container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+.partner {
+    width: 50%;
+    height: 50%;
+    border: 1px solid red;
 }
