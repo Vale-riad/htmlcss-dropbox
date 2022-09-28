@@ -358,3 +358,18 @@ h4{
 .piccola-hero h2{
     color: #61082b;
 }
+.faq{
+    padding:100px;
+}
+.riga{
+    border-bottom: black;
+   
+}
+.faq hr{
+    width:100%;
+    color: lightgray;
+}
+.domande{
+    display:flex;
+    justify-content: space-between;
+}
