@@ -321,3 +321,18 @@ h4{
 .topps{
     background-color: #ff1c1c;
 }
+.center{
+    background-color: #f5f5f5;
+    display: block;
+    overflow-y: auto;
+    
+}
+.center img p small{
+    padding:30px;
+}
+.center hr{
+    width:80px;
+}
+.bici{
+    background-color: aqua;
+}
