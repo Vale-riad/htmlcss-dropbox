@@ -247,6 +247,7 @@ h4{
 .stacco{
     padding-bottom: 70px;
 }
+
 .link{
     text-decoration-line: underline;
     color: blue;
@@ -341,8 +342,34 @@ h4{
     display: flex;
     align-items: center;
 }
-.hero-piccola img p small{
- margin-top: 30px;
+
+.hear{
+    background-color: #b4d0e7;
+    display: flex;
+    align-items: center;
+}
+.lone{
+    background-color: #0d2481;
+    display: flex;
+    align-items: center;
+}
+.clear{
+    background-color: #ffd830;
+    display: flex;
+    align-items: center;
+
+}
+
+.hero-piccola{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around
+}
+.hero-piccola img{
+    width:50%;
+}
+.hero-piccola small{
+padding-bottom: 15px;
 }
 
 .hero-4{
@@ -361,15 +388,20 @@ h4{
 .faq{
     padding:100px;
 }
-.riga{
-    border-bottom: black;
-   
+.faq h2{
+    margin-bottom:50px;
 }
 .faq hr{
     width:100%;
     color: lightgray;
+    margin-top: 10px;
 }
 .domande{
     display:flex;
     justify-content: space-between;
 }
+.bott .btn-white{
+    border: none;
+    padding:10px 10px 10px 10px;
+}
+
