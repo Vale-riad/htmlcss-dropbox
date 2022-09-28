@@ -266,11 +266,12 @@ h4{
 
 .partners {
     display: flex;
+    
 }
 .partner-col {
     position: relative;
     width: calc(100% / 3);
-    border: 1px solid;
+    
 }
 .partner-col::before {
     content: '';
@@ -285,11 +286,12 @@ h4{
     bottom: 0;
     display: flex;
     flex-wrap: wrap;
+    align-items: center;
 }
 .partner {
     width: 50%;
     height: 50%;
-    border: 1px solid red;
+    
 }
 
 .partner img{
@@ -302,13 +304,12 @@ h4{
 }
 .img-desi{
     width: 100%;
-    height: 100%;
     padding-left: 18px;
     
 }
 .logo{
     width: 100%;
-    height: 100%;
+    height:100%;
     
 }
 .ari-uni{
@@ -334,5 +335,5 @@ h4{
     width:80px;
 }
 .bici{
-    background-color: aqua;
+    background-color: #d5001f;
 }
