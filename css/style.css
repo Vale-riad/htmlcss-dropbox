@@ -182,18 +182,12 @@ hr{
 .blu{
     color:#0061ff;
 }
- 
-
-
-
-
 .column-bassa{
     margin-bottom: 30px;
     margin-top: 30px;
     width:100%;
     border: solid 1px lightgray;
 }
-
 .column-3{
     margin: 5px 5px;
     display: flex;
@@ -203,8 +197,9 @@ hr{
     justify-content: space-between;
     padding:5px;
 }
-.bottone .btn-blu{
-    padding: 5px 5px 5px 5px;
+.bottone .btn-blue{
+    padding: 15px 15px 15px 15px;
+    margin-right: 10px;
 }
 h3{
     padding-top: 30px;
@@ -367,13 +362,15 @@ h4{
 .hero-piccola{
  display: flex;
  flex-direction: column;
- justify-content: space-around
+ justify-content: space-around;
+ 
+ 
 }
 .hero-piccola img{
     width:50%;
 }
 .hero-piccola small{
-padding-bottom: 15px;
+padding-bottom: 150px;
 }
 
 .hero-4{
@@ -408,20 +405,22 @@ padding-bottom: 15px;
     border: none;
     padding:10px 10px 10px 10px;
 }
-
+/*---------
+footer
+---------*/
 .hero-5{
     background-color: Black;
 }
-
 .container-footer{
     display:flex;
-}
-
+    align-items: center;
+} 
 .colonna-footer{
     margin:50px;
     padding-top: 70px;
     padding-right: 10px;
-    width: calc(100% / 5);
+    width: calc(100% / 6);
+    
 }
    
 .colonna-footer h4{
@@ -439,3 +438,21 @@ padding-bottom: 15px;
 .colonna-footer ul{
     padding-bottom: 10px;
 }
+.footer-bottom{
+    margin-left: 40px;
+    padding-bottom: 30px;
+}
+.footer-bottom hr{
+    width:10%;
+    color: lightgray;
+}
+.li-footer{
+    color:white;
+    font-size: 12px;
+}
+.chevron-up {
+    padding-left: 10px;
+}
+/*---------
+footer
+---------*/
